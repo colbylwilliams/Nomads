@@ -29,7 +29,6 @@ rootPlist=
 projTypeMac="Mac"
 projTypeiOS="iOS"
 
-echo $infoPlist
 
 # Check for a couple common Keys that would be present in most iOS Info.plist files
 projType=$(/usr/libexec/PlistBuddy -c "Print :LSRequiresIPhoneOS" $infoPlist 2>/dev/null \
@@ -49,7 +48,6 @@ else
 	rootPlist="$projectDir/Settings.bundle/Root.plist"
 fi
 
-echo $copyright
 
 # Get the BundleShortVersionString (Version Number) from from Info.plist and set to a variable
 versionNumber=$(/usr/libexec/PlistBuddy -c "Print :CFBundleShortVersionString" $infoPlist)
@@ -79,8 +77,11 @@ IncrementVersionNumber ()
 }
 
 if [ "$release" = true ]; then
+	echo Project Config: Release
 	IncrementBuildNumber
 	IncrementVersionNumber
+else
+	echo Project Config: Debug
 fi
 
 # Create Some variables to create hold our Preference node values
