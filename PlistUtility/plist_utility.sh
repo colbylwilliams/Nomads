@@ -23,7 +23,7 @@ shift $((OPTIND-1))
 #### Get Values from Info.plist ####
 
 
-infoPlist="{$projectDir}/Info.plist"
+infoPlist="$projectDir/Info.plist"
 rootPlist=
 
 projTypeMac="Mac"
@@ -46,7 +46,7 @@ else
 	echo Project Type: iOS
 	# If projType doesn't equal Mac, it's iOS
 	projType="$projTypeiOS"
-	rootPlist="{$projectDir}/Settings.bundle/Root.plist"
+	rootPlist="$projectDir/Settings.bundle/Root.plist"
 fi
 
 echo $copyright
