@@ -1,0 +1,1 @@
+Nomads.Utilities.Settings
