@@ -2,12 +2,7 @@
 
 # c0lby:
 
-source plist_utility.sh
-
-
 ## Create New Root.plist file ##
-
-if [ "$projType" = "$projTypeiOS" ]; then
 
 PreparePreferenceFile
 
@@ -21,5 +16,3 @@ PreparePreferenceFile
 
 
 	AddNewTitleValuePreference  -k "UserReferenceKey" 	-d ""  	-t ""
-
-fi

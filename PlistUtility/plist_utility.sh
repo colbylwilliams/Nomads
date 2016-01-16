@@ -293,3 +293,10 @@ AddNewToggleSwitchPreference ()
 	AddNewBoolNode	 -e DefaultValue  	-v "${nodeDefault}"
 	AddNewStringNode -e Title  			-v "${nodeTitle}"
 }
+
+
+if [ "$projType" = "$projTypeiOS" ]; then
+
+	source "$projectDir/root_plist.sh"
+
+fi
