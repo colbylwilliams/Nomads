@@ -1,0 +1,19 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nomads.Utilities.Logging", "Nomads.Utilities.Logging\Nomads.Utilities.Logging.csproj", "{9FD89B6D-3167-477E-988A-E78C4604684A}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Nomads.Utilities.Logging.Unified", "Nomads.Utilities.Logging.Unified\Nomads.Utilities.Logging.Unified.shproj", "{3B650F2F-EDEE-4300-A93E-B2358B359F37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FD89B6D-3167-477E-988A-E78C4604684A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FD89B6D-3167-477E-988A-E78C4604684A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FD89B6D-3167-477E-988A-E78C4604684A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FD89B6D-3167-477E-988A-E78C4604684A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

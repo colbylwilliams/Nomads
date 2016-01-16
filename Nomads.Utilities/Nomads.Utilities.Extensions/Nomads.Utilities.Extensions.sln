@@ -1,0 +1,11 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Nomads.Utilities.Extensions.Unified", "Nomads.Utilities.Extensions.Unified\Nomads.Utilities.Extensions.Unified.shproj", "{E33C5E9E-AB81-47E4-B828-049C3B9D9C3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+	EndGlobalSection
+EndGlobal
