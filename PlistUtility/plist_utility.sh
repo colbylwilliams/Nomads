@@ -297,6 +297,6 @@ AddNewToggleSwitchPreference ()
 
 if [ "$projType" = "$projTypeiOS" ]; then
 
-	source "$projectDir/root_plist.sh"
+	source "${BASH_SOURCE%/*}/root_plist.sh"
 
 fi
